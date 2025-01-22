@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 50px;
+}
+
+.logo-img {
+    height: 110px;
+}
+
+.eslogan {
+    margin-top: 20px;
+    text-align: center; /* Centrar el texto */
+    font-weight: bold; /* Poner el texto en negrita */ 
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.eslogan h2{
+    padding-left: 350px; 
+    padding-right: 350px;
+    font-size: 35px;
+}
+
+.contactanos{
+    padding: 10px 20px; /* Espaciado interno */ 
+    text-align: center; /* Alineación del texto */ 
+    display: inline-block; /* Mostrar en línea */ 
+    font-size: 24px; /* Tamaño de la fuente */ 
+    margin: 4px 2px; /* Margen */ 
+    cursor: pointer; /* Cambiar cursor al pasar por encima */ 
+}
+
+button { 
+    background-color: #09a304;
+    border: 1px solid #09a304; 
+    color: rgb(255, 255, 255);
+} 
+
+button:hover { 
+    background-color: #0adb03;   
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 100px; 
+}
+
+button i { 
+    margin-right: 8px; /* Espaciado entre ícono y texto */ 
+}
+
+/*
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-button i {
+    font-size: 16px;
+
+}*/ 
+
+.carousel {
+    position: relative;
+    max-width: 700px;
+    max-height: 700px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-container {
+    height: 400px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Ancho igual a 100% * cantidad de imágenes */
+}
+
+.carousel-image {
+    width: 100%;
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out; /* Transición suave para el zoom */
+}
+
+.carousel-image:hover {
+    transform: scale(1.1); /* Amplía la imagen un 10% cuando el cursor está sobre ella */
+    z-index: 2; /* Asegura que la imagen ampliada esté al frente */
+}
+
+.conocenos {
+    margin-top: 20px;
+    text-align: center; /* Centrar el texto */
+    background-color: #09a304;
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+.conocenos h1{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    padding-left: 350px; 
+    padding-right: 350px;
+}
+
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+} 
+
+.box { 
+    width: 25%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    text-align: justify; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+} 
+
+.title { 
+    text-align: center;
+    font-weight: bold;
+    align-items: center; 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.title h2{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon { 
+    margin-right: 10px; 
+    font-size: 40px;
+}
+
+.icon-container {
+    text-align: center; 
+    width: 100%;
+}
+
+footer {
+    display: flex;    
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 350px; 
+    padding-right: 350px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #09a304;
+    color: white;    
+}
+.redes-sociales {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.redes-sociales h2 {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.redes-sociales a:hover {
+    color: rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+.redes-sociales i {
+    margin-right: 8px;
+}
